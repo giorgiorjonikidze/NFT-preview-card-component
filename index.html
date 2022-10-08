@@ -1,30 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-  <title>Frontend Mentor | NFT preview card component</title>
-  <link rel="stylesheet" href="/styles.css">
-
-</head>
-<body>
-
-
-
-  Equilibrium #3429
-
-  Our Equilibrium collection promotes balance and calm.
-
-  0.041 ETH
-  3 days left
-  
-  Creation of Jules Wyvern
-
-</body>
-</html>\
-git remote add origin https://github.com/giorgiorjonikidze/NFT-preview-card-component.git
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | NFT preview card component</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body class="flex w-screen justify-center items-center h-screen">
+    <div class="rounded-2xl main-block box-border h-fit flex flex-col">
+      <img  src="/images/image-equilibrium.jpg" class="main-block-img" />
+      <h1 class="font-bold text-white mt-6 mb-3">Equilibrium #3429</h1>
+      <p class="main-p w-64 mb-4">
+        Our Equilibrium collection promotes balance and calm.
+      </p>
+      <div class="eth-wrapper flex justify-between">
+        <div class="flex items-center">
+          <img class="eth-img" src="/images/icon-ethereum.svg" />
+          <p class="eth-p ml-2">0.041 ETH</p>
+        </div>
+        <div class="flex items-center">
+          <img class="clock-img" src="/images/icon-clock.svg" />
+          <p class="ml-2 font-semibold clock-p">3 days left</p>
+        </div>
+      </div>
+      <div class="h-px bg-blue-800 mt-4 mb-4"></div>
+      <div class="flex items-center">
+        <img src="/images/image-avatar.png" class="face-img rounded-full border-white border">
+        <span class="font-normal ml-4 creation-p">Creation of</span ><span class="font-normal ml-2 autor-p text-white">Jules Wyvern</span>
+      </div>
+    </div>
+  </body>
+</html>
+git init
+git add README.md
+git commit -m "first commit"
 git branch -M main
+git remote add origin https://github.com/giorgiorjonikidze/NFT-preview-card-component.git
 git push -u origin main

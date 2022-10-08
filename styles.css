@@ -1,0 +1,45 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+}
+
+.main-block {
+  padding: 25px;
+  background-color: hsl(216, 50%, 16%);
+}
+
+.main-block-img {
+  width: 278px;
+}
+
+h1 {
+  font-size: 22px;
+}
+
+.main-p {
+  color: #8bacd9;
+}
+
+.eth-img {
+  height: 18px;
+  width: 11px;
+}
+.clock-img {
+  width: 13px;
+  height: 13px;
+}
+.eth-p {
+    color: #00FFF8;
+}
+
+.clock-p {
+    color: #8BACD9;
+}
+
+.face-img {
+    width: 33px;
+}
+
+.creation-p {
+    color: #8BACD9;
+}
+
